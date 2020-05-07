@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f5154;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav * {
+  margin: 0.5em;
+}
+
+nav h1 {
+  font-size: 2em;
+  text-decoration: none;
+  color: #1db954;
+}
+
+nav h1 a {
+  text-decoration: none;
+  color: #1db954;
+}
+
+nav form {
+  text-align: center;
+  margin: auto 0;
+}
+
+nav form input {
+  border-radius: 15px;
+  min-width: 35em;
+  border: 1px solid #4f5154;
+  padding: 0.2em 0.5em;
+  font-size: 1.2em;
+}
+
+nav form button {
+  background-color: #1db954;
+  border: 1px solid #4f5154;
+  color: #4f5154;
+  font-size: 1.2em;
+  padding: 0.2em 0.5em;
+  border-radius: 15px;
+}
+
+.artist-results h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.artist-results ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.artist-results ul li {
+  background-color: #4f5154;
+  margin: 2em;
+  width: 20em;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #1db954;
+}
+
+.artist-results ul li .img-container {
+  width: 320px;
+  height: 320px;
+}
+
+.artist-results ul li img {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.artist-results ul li .album-info {
+  margin: 1em;
+}
+
+.artist-results ul li a {
+  background-color: #1db954;
+  border: 1px solid #4f5154;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.2em 0.5em;
+  border-radius: 15px;
+  margin: 1em auto;
+}
+
+.album-tracklist ul {
+  padding: 0 1em;
+}
+
+.album-tracklist ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f5154;
+  border-radius: 50px;
+  padding: 0 2em;
+  margin: 1em auto;
+  color: #1db954;
+}
+
+.album-tracklist ul li figure {
+  margin: 0.5em;
+}
+
+.back {
+  background-color: #1db954;
+  border: 1px solid #4f5154;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.2em 0.5em;
+  border-radius: 15px;
+  margin: 1em 1em;
+}

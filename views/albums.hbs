@@ -1,0 +1,17 @@
+<button class="back" onclick=window.history.back()>Return to Artists</button>
+<div class="artist-results">
+<ul>
+  {{#each albumResults }}
+  <li>
+    <div class="img-container">
+      <img src="{{ images.1.url }}" alt="{{ name }}">
+    </div>
+    
+    <div class="album-info">
+      <h3>{{ name }}</h3>
+      <a href="/album/{{ id }}">View Tracklist</a>
+    </div>
+    </li>
+  {{/each}}
+</ul>
+</div>

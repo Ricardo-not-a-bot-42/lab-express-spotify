@@ -1,0 +1,18 @@
+<div class="artist-results">
+<h2>Top playlists Portugal</h2>
+<ul>
+  {{#each categoryResults}}
+  <li>
+    <div class="img-container">
+      <img src="{{ images.0.url }}" alt="{{ name }}">
+    </div>
+    
+    <div class="album-info">
+      <h3>{{ name }}</h3>
+      <a href="/album/{{ id }}">View Tracklist</a>
+    </div>
+
+  </li>
+  {{/each}}
+</ul>
+</div>
